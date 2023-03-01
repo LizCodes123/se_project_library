@@ -341,7 +341,6 @@
 
 .step {
   flex-basis: 220px;
-  flex-direction: column;
 }
 
 .step__title {
@@ -442,6 +441,8 @@
 
 .footer__list-item {
   margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-item:last-of-type {
@@ -450,6 +451,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -458,7 +461,7 @@
   line-height: 20px;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__column-link:hover {
@@ -468,8 +471,11 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
   margin: 108px 0 0 0;
+  font-size: 16px;
+  line-height: 20px;
 }
