@@ -31,7 +31,7 @@
 }
 
 .nav__links {
-  margin-top: 8px;
+  margin: 8px 0 0 0;
   padding: 0;
   display: flex;
   column-gap: 20px;
@@ -53,14 +53,14 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin-bottom: 12px;
-  margin-top: 150px;
+  margin: 150px 0 0 0;
 }
 
 .header__description {
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
+  margin: 32px 0 0 0;
 }
 
 .header__image {
@@ -242,7 +242,7 @@
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,7 +340,6 @@
 }
 
 .step {
-  display: flex;
   flex-basis: 220px;
   flex-direction: column;
 }
@@ -379,7 +378,6 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  display: flex;
 }
 
 .about__content {
@@ -459,6 +457,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column-link:hover {
@@ -471,5 +471,5 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0 0;
 }
